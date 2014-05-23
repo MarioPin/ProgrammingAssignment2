@@ -2,8 +2,9 @@
 
 
 ## Write a short comment describing this function
-
-makeCacheMatrix <- function(x = matrix()) {
+# set and retireve the original matrix
+# set and retrieve the inverse matrix
+ makeCacheMatrix <- function(x = matrix()) {
         m <- NULL                       
         set <- function(y) {            
                 x <<- y                 
